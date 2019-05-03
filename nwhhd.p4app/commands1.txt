@@ -1,0 +1,26 @@
+table_set_default set_heavy_hitter_count_table set_heavy_hitter_count
+table_set_default find_min1 do_find_min1
+table_set_default find_min2 do_find_min2
+table_set_default find_min3 do_find_min3
+table_set_default find_min4 do_find_min4
+table_set_default find_min5 do_find_min5
+table_set_default find_min6 do_find_min6
+table_set_default find_min7 do_find_min7
+table_set_default find_min8 do_find_min8
+table_set_default find_min9 do_find_min9
+table_set_default find_min10 do_find_min10
+table_set_default tot_table increment_tot
+table_set_default read_packets do_read_packets
+table_set_default add_sampleList do_add_sampleList
+table_set_default read_maximum_count do_read_max_count
+table_set_default read_maximum_count_final do_read_max_count_final
+table_set_default set_maximum do_set_maximum
+table_set_default read_hh_threshold do_read_hh_threshold
+table_set_default check_sampleList do_check_sampleList
+table_set_default read_tot do_read_tot
+table_add ipv4_lpm ipv4_forward 10.0.1.1/32 => 00:00:00:00:01:01 1
+table_add ipv4_lpm ipv4_forward 10.0.2.2/32 => 00:00:00:00:02:02 3
+table_add ipv4_lpm ipv4_forward 10.0.3.3/32 => 00:00:00:00:03:03 2
+table_set_default copy_to_cpu do_copy_to_cpu
+table_add redirect do_cpu_encap 1 =>
+mirroring_add 250 0
