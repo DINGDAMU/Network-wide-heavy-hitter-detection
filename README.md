@@ -22,7 +22,7 @@ Installation
     ```
     cp p4app /usr/local/bin
     ```
-    I have already modified the default docker image to **dingdamu/p4app-ddos**, so `p4app` script can be used directly.
+    I have already modified the default docker image to **dingdamu/p4app-ddos:nwhhd**, so `p4app` script can be used directly.
 
 5.  ```
     ./p4app run nwhhd.p4app 
