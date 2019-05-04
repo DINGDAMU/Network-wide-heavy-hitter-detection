@@ -25,7 +25,7 @@ Installation
     I have already modified the default docker image to **dingdamu/p4app-ddos**, so `p4app` script can be used directly.
 
 5.  ```
-    p4app run nwhhd.p4app 
+    ./p4app run nwhhd.p4app 
     ```
     After this step you'll see the terminal of **mininet**
 6. ```
@@ -40,6 +40,7 @@ Installation
     sudo python3 controller.py
    ```
 9. Go back to **mininet** terminal and run following command within 5s (5s is the time interval) 
+   We set 10 time intervals in this case
     ```
     pingall
    ```
