@@ -28,7 +28,8 @@ Installation
     ./p4app run nwhhd.p4app 
     ```
     After this step you'll see the terminal of **mininet**
-6. ```
+6. Open a new terminal
+   ```
     cd nwhhd.p4app 
    ```
 7. Enter the terminal of Docker
