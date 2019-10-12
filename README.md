@@ -36,15 +36,22 @@ Installation
    ```
     bash terminal.sh 
    ```
-8. Start controller in Docker 
+8. Activate interface veth0 to monitor all packets in the Network
+   ```
+    ip link add name veth0 type veth peer name veth1
+    ip link set dev veth0 up
+    ip link set dev veth1 up
+   ```
+
+9. Start controller in Docker 
    ```
     sudo python3 controller.py
    ```
-9. Go back to **mininet** terminal and run following command within 5s (5s is the time interval) 
+10. Go back to **mininet** terminal and run following command within 5s (5s is the time interval) 
    We set 10 time intervals in this case
     ```
     pingall
    ```
-10. Check the results of controller
+11. Check the results of controller
 
 
