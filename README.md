@@ -1,7 +1,15 @@
 # Implementing Network-wide heavy-hitter detection in P4 language 
-Citation: Ding, Damu, et al. "Incremental deployment of programmable switches for network-wide heavy-hitter detection." 2019 IEEE Conference on Network Softwarization (NetSoft). IEEE, 2019.
-
-
+Citation
+--------
+```
+@article{ding2020incrementally,
+  title={An incrementally-deployable P4-enabled architecture for network-wide heavy-hitter detection},
+  author={Ding, Damu and Savi, Marco and Antichi, Gianni and Siracusa, Domenico},
+  journal={IEEE Transactions on Network and Service Management},
+  year={2020},
+  publisher={IEEE}
+}
+```
 Installation
 ------------
 
