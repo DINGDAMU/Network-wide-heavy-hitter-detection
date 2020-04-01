@@ -1,4 +1,4 @@
-# Implementing Network-wide heavy-hitter detection in P4 language 
+# Network-wide heavy-hitter detection implementation in P4 language 
 Citation
 --------
 ```
